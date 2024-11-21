@@ -44,10 +44,10 @@
 
             label = "Base";
             bindings = <
-&lt 1 TAB    &kp Q  &kp W  &kp E     &kp R  &kp T           &kp Y         &kp U      &kp I          &kp O    &kp P                  &kp BACKSPACE
-&mt CAPS F2  &kp A  &kp S  &kp D     &kp F  &kp G           &kp H         &kp J      &kp K          &kp L    &mt SEMI APOS          &lt 2 ENTER
-&kp LSHFT    &kp Z  &kp X  &kp C     &kp V  &kp B           &kp N         &kp M      &kp COMMA      &kp DOT  &mt KP_SLASH QUESTION  &kp LEFT_SHIFT
-                           &kp LGUI  &mo 2  &kp LEFT_ALT    &kp KP_ENTER  &kp SPACE  &kp BACKSPACE
+&none    &none      &none             &none         &kp LC(C)      &kp LC(V)        &kp Y         &kp U      &kp I          &kp O    &kp P                  &kp BACKSPACE
+&kp TAB  &kp LG(L)  &kp LC(LS(TAB))   &kp LC(TAB)   &kp LGUI       &kp LG(W)        &kp H         &kp J      &kp K          &kp L    &mt SEMI APOS          &lt 2 ENTER
+&none    &none      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LG(R)      &kp LS(LG(P))    &kp N         &kp M      &kp COMMA      &kp DOT  &mt KP_SLASH QUESTION  &kp LEFT_SHIFT
+                                      &kp LGUI      &kp LS(SPACE)  &kp SPACE        &kp KP_ENTER  &kp SPACE  &kp BACKSPACE
             >;
         };
 
